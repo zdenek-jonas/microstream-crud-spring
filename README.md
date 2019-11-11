@@ -3,10 +3,10 @@
 This example shows how to use Microstream with Spring. 
 The goal is to provide a simple example how to start with Spring and Microstream and not to show all Spring or Microstream possibilities.
 
-This project tries to make everything as simple as posible. For this reason there are no Interfaces in Repository. 
+This project tries to make everything as simple as possible. For this reason, there are no Interfaces in Repository. 
 
 ## pom.xml
-For first step we need a new Maven project. The Repository for microstream has to been added into pom.xml. Here is the pom.xml:
+For first step we need a new Maven project. The Microstream Repository must bee added into pom.xml. 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -94,7 +94,7 @@ public class Customer {
 }
 ```
 
-Customer Repository. To make our example shortly, we just ignore gut practise and do not write any interface. Just direct implement a repository object.
+Customer Repository. To make our example shortly, we just ignore gut practice and do not write any interface. Just direct implement a repository object.
 
 ```java
 package one.microstream;
@@ -206,7 +206,7 @@ public class Application {
 }
 ```
 
-Now we need a one file more and this file is application.properties. In this file we define the path for the DB files. Where Microstream should save our data. This file is pretty easy. 
+Now we need a one file more and this file is application.properties. In this file we define the path for the DB files. Where Microstream should save our data. This file is easy and short. 
 ```
 microstream.store.location=C:\\store
 ```
