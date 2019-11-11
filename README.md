@@ -76,8 +76,7 @@ For first step we need a new Maven project. The Microstream Repository must bee 
 ```
 
 ## Java Code
-This project used Lombok framework to make Data object short.
-After create maven project we need to add three Java files:
+After create maven project we need to add three Java files: This project used Lombok framework to make Data object shortly.
 Customer.java 
 ```java
 package one.microstream;
