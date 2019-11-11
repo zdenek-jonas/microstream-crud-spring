@@ -141,6 +141,9 @@ public class CustomerRepository {
     }
 }
 ```
+In constructor we start our DB with root object customers and as second paramter we provide the location, where data should be stored. The @Value annotation is spring Annotation which inject the value from configuration file. To save our data we just call storage.store(Object). 
+The method findByFirstName shows the mechanism to obtain data from Microstream. Instead of to write some Query in SQL or other Query language, we just use the Java Lambdas. 
+
 And last java file is the Spring application self.
 
 ```java
