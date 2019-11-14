@@ -18,7 +18,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <microstream.version>02.00.01-MS-GA-SNAPSHOT</microstream.version>
+        <microstream.version>02.00.00-MS-GA</microstream.version>
         <lombok.version>1.18.10</lombok.version>
     </properties>
 
